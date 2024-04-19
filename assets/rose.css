@@ -1,14 +1,20 @@
-body {
-  font-family: 'Satisfy-Regular', sans-serif !important;
+/* CUSTOM TEXT SELECTION COLORS */
+::-moz-selection {
+  /* Code for Firefox */
+  color: red;
+  background: yellow;
 }
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+/* CUSTOM TEXT SELECTION COLOR END */
 /* CUSTON FONT ADDED */
 @font-face {
   font-family: 'ProtestRevolution-Regular';
   src: url('ProtestRevolution-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Lugrasimo-Regular';
-  src: url('Lugrasimo-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Satisfy-Regular';
@@ -41,6 +47,9 @@ body {
   --shad-color: rgba(255, 255, 255, .25);
 }
 /* CUSTION FONT END  */
+body {
+  font-family: 'Satisfy-Regular', sans-serif !important;
+}
 /*url link markdown*/
 a {
   color: var(--link-color);
@@ -52,6 +61,22 @@ a:hover {
 h3{
   color: var(--text-color);
   font-size: xxx-large;
+}
+.soc:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rebeccapurple;
+  transition: width 0.7s ease 0s, left 0.7s ease 0s;
+  width: 0;
+}
+.soc:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 @media (max-width: 440px) {
   h3 {
@@ -71,7 +96,7 @@ h1 {
 .soc:hover{
   transition-duration: 0.4s;
   color: red;
-  font-size: small;
+  font-size: large;
 }
 
 /*blog post font color*/
