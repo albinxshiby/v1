@@ -9,13 +9,8 @@
   color: red;
   background: yellow;
 }
-
 /* CUSTOM TEXT SELECTION COLOR END */
 /* CUSTON FONT ADDED */
-@font-face {
-  font-family: 'ProtestRevolution-Regular';
-  src: url('ProtestRevolution-Regular.ttf') format('truetype');
-}
 @font-face {
   font-family: 'Satisfy-Regular';
   src: url('Satisfy-Regular.ttf') format('truetype');
@@ -23,26 +18,30 @@
 :root {
   --body-color: #f7f7f7;
   --text-color: #171c28;
+  --nav-color: #292a2d;
   --link-color: rebeccapurple;
   --shad-color: rgba(255, 255, 255, .25);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-color: #171c28;
-  --text-color: #f7f7f7;
-  --link-color: rebeccapurple;
+  --body-color: #1a2437;
+  --text-color: #ffffff;
+  --nav-color: #f7f7f7;
+  --link-color: #38bdf8;
   --shad-color: rgba(255, 255, 255, .25);
   }
 }
 [data-theme="dark"] {
-  --body-color: #171c28;
-  --text-color: #f7f7f7;
-  --link-color: rebeccapurple;
+  --body-color: #1a2437;
+  --text-color: #ffffff;
+  --nav-color: #f7f7f7;
+  --link-color: #38bdf8;
   --shad-color: rgba(255, 255, 255, .25);
 }
 [data-theme="light"] {
   --body-color: #f7f7f7;
   --text-color: #171c28;
+  --nav-color: #292a2d;
   --link-color: rebeccapurple;
   --shad-color: rgba(255, 255, 255, .25);
 }
@@ -87,7 +86,7 @@ h1 {
   font-size: 1.6em;
 }
 .soc{
-  color: rebeccapurple;
+  color: var(--link-color);
   text-decoration: none;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -148,12 +147,12 @@ img {
 
 /*header/navbar*/
 .head-rose {
-  color: var(--text-color) !important;
+  color: var(--nav-color) !important;
   text-decoration: none !important;
 }
 
 .head-rose:hover {
-  color: var(--text-color) !important;
+  color: var(--nav-color) !important;
 }
 
 .float-md-start {
@@ -164,7 +163,7 @@ img {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--nav-color);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -181,7 +180,7 @@ img {
 }
 
 .nav-masthead .active {
-  color: var(--text-color);
+  color: var(--nav-color);
   border-bottom-color: var(--shad-color);
 }
 
