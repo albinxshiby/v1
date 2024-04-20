@@ -96,7 +96,7 @@ h1 {
 .soc:hover{
   transition-duration: 0.4s;
   color: red;
-  font-size: large;
+  font-size: small;
 }
 
 /*blog post font color*/
@@ -228,6 +228,10 @@ kbd {
 .foot{
   font-size: x-small;
   word-wrap: break-word;
+  filter: opacity(75%);
+}
+header{
+  filter: opacity(90%);
 }
 /*
 .content{
