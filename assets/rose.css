@@ -24,7 +24,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-  --body-color: #1a2437;
+  --body-color: #000;
   --text-color: #ffffff;
   --nav-color: #f7f7f7;
   --link-color: #38bdf8;
@@ -32,7 +32,7 @@
   }
 }
 [data-theme="dark"] {
-  --body-color: #1a2437;
+  --body-color: #000;
   --text-color: #ffffff;
   --nav-color: #f7f7f7;
   --link-color: #38bdf8;
@@ -53,7 +53,9 @@ body {
 a {
   color: var(--link-color);
 }
-
+.strike{
+  text-decoration: line-through;
+}
 a:hover {
   color: var(--link-color);
 }
@@ -61,9 +63,9 @@ h3{
   color: var(--text-color);
   font-size: xxx-large;
 }
-.content:after {    
+.soc:after {    
   background: none repeat scroll 0 0 transparent;
-  bottom: 0;
+  bottom: 1;
   content: "";
   display: block;
   height: 2.5px;
@@ -73,10 +75,11 @@ h3{
   transition: width 0.7s ease 0s, left 0.7s ease 0s;
   width: 0;
 }
-.content:hover:after { 
+.soc:hover:after { 
   width: 100%; 
   left: 0; 
 }
+
 @media (max-width: 440px) {
   h3 {
     font-size: xx-large;
@@ -95,7 +98,6 @@ h1 {
 .soc:hover{
   transition-duration: 0.4s;
   color: red;
-  font-size: small;
 }
 
 /*blog post font color*/
