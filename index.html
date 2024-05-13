@@ -1,6 +1,3 @@
-<!--
-VISIT README.md FOR DETAILS
--->
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
@@ -14,30 +11,23 @@ VISIT README.md FOR DETAILS
 <link defer="" href="assets/bootstrap.min.css" rel="stylesheet">
 <link defer="" href="assets/rose.css" rel="stylesheet">
 <link defer="" href="assets/extra.css" rel="stylesheet">
-<script src="assets/js.js"></script>
 <title>Albin Shiby | personal page @albinxshiby</title>
 <script defer src="https://analytics.eu.umami.is/script.js" data-website-id="32bf1e23-fe1d-4383-8a15-a715622d8522"></script>
 </head>
 <!--BODY START-->
 <body class="d-flex md h-100 container-sm text-white bg-dark">
-    <!-- right click disabling script start -->
-    <script>
-        document.addEventListener("contextmenu", e => {
-            alert("Sorry! Right Click is disabled");
-            e.preventDefault();
-        });
-    </script>
-<!-- right click disabling script END -->
 <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
 <!--HEADER SECTION START-->
 <header class="mb-auto">
+<div>
 <h1 class="float-md-start justify-content-center"><a class="head-rose" href="/">hello@abnxer ~ $</a></h1>
 <nav class="nav nav-masthead justify-content-center float-md-end">
-<a class="nav-link" href="https://albinshiby.substack.com/">my blog's</a>
-<a class="nav-link" href="https://github.com/albinxshiby">project's</a>
-<a class="nav-link" href="contact.html">contact</a>
-<a class="nav-link" href="https://snowflake.torproject.org/" target="_blank"><div class="strike">censorship</div></a>
+<a class="nav-link" href="https://albinshiby.substack.com/" target="_blank">blog's</a>
+<a class="nav-link" href="https://github.com/albinxshiby" target="_blank">project's</a>
+<a class="nav-link" href="contact.html" target="_blank">contact</a>
+<a class="nav-link" href="#">other's</a>
 </nav>
+</div>
 </header>
 <!--HEADER SECTION STOP-->
 <!--MAIN SECTION START-->
@@ -45,39 +35,39 @@ VISIT README.md FOR DETAILS
 <!-- <div class="avatar text-center"><img src="assets/mainl.png" 
     alt="black-rose" class="img-ava"></div> -->
 <div class="px-3 text-center">
-<h3>
-<span>Hi</span><span>,</span>
-<span>I'm</span>
-<span>Al</span><span>bin</span>
-<span>Sh</span><span>iby</span>
-</h3>
-<p>
-<span>and</span>
-<span>ni</span><span>ce</span>
-<span>to</span>
-<span>meet</span>
-<span>you</span>
-<span>!</span>
-</p>
-<span><a href="https://instagram.com/albinxshiby" class="soc" target="_blank">instagram</a></span>
-<span><a href="https://x.com/albinxshiby" class="soc" target="_blank"><span>twitter</a></span>
-<span><a href="https://github.com/albinxshiby" class="soc" target="_blank"><span>github</span></a></span>
-<span><a href="https://mastodon.social/@albinxshiby" class="soc" target="_blank"><span>mastodon</span></a></span>
-<span><a href="https://linkedin.com/in/albinshiby" class="soc" target="_blank"><span>linkedin</span></a></span>
+<h3>Hi, I'm Albin Shiby</h3>
+<p>this user is a baka</p>
+<a href="https://instagram.com/albinxshiby" class="soc" target="_blank">instagram</a>
+<a href="https://x.com/albinxshiby" class="soc" target="_blank">twitter</a>
+<a href="https://github.com/albinxshiby" class="soc" target="_blank">github</a>
+<a href="mailto:hellobylon@skiff.com" class="soc">email</a>
+<a href="https://mastodon.social/@albinxshiby" class="soc" target="_blank">mastodon</a>
+<a href="https://gitlab.com/albinxshiby" class="soc" target="_blank">gitlab</a>
+<a href="https://linkedin.com/in/albinshiby" class="soc" target="_blank">linkedin</a>
+
 </div>
 </div>
 <!--MAIN SECTION END-->
 <!--BOTTOM SECTION START-->
 <a onclick="toggleTheme()" class="logo"><img src="assets/f.gif" class="logo" alt="dark-mode"></a>
-<footer class="mt-auto text-white text-center">  
-<p class="foot">
-    Designed & Developed by 
-    <a style="text-decoration: none; color:rgb(150, 48, 48)" href="https://github.com/albinxshiby"> 
-        @albinxshiby 
-    </a> 🤠 2023</p>
+<footer class="mt-auto text-white text-center">
+<p class="foot">Designed and Developed by <a style="text-decoration: none; color:rgb(150, 48, 48)" href="https://github.com/albinxshiby">@albinxshiby</a> 🤠 2023</p>
 </footer>
 <!--BOTTOM SECTION STOP-->
 </div>
+<!--THEME SWITCH JS START-->
+<script>
+    function toggleTheme() {
+        var html = document.querySelector('html');
+        if (html.getAttribute('data-theme') === 'light') {
+            html.setAttribute('data-theme', 'dark');
+        } else {
+            html.setAttribute('data-theme', 'light');
+        }
+    }
+
+</script>
+<!--THEME SWITCH JS END-->
 </body>
 <!--BODY END-->
 </html>
