@@ -41,10 +41,9 @@ img {
 
 /*avatar/profile image*/
 .img-ava {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  margin-bottom: 30px;
+  height: 140px;
+  width: auto;
+  margin-bottom: 20px;
 }
 
 /*header/navbar*/
