@@ -1,0 +1,68 @@
+:root {
+    --body-color: #f7f7f7;
+    --text-color: #171c28;
+    --link-color: rebeccapurple;
+    --shad-color: rgba(255, 255, 255, .25);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --body-color: #171c28;
+    --text-color: #f7f7f7;
+    --link-color: rebeccapurple;
+    --shad-color: rgba(255, 255, 255, .25);
+    }
+  }
+  [data-theme="dark"] {
+    --body-color: #171c28;
+    --text-color: #f7f7f7;
+    --link-color: rebeccapurple;
+    --shad-color: rgba(255, 255, 255, .25);
+  }
+  [data-theme="light"] {
+    --body-color: #f7f7f7;
+    --text-color: #171c28;
+    --link-color: rebeccapurple;
+    --shad-color: rgba(255, 255, 255, .25);
+  }
+  @font-face {
+    font-family: 'Satisfy-Regular';
+    src: url('Satisfy-Regular.ttf') format('truetype');
+  }
+  .logo {
+    filter:contrast(1%);
+    cursor:context-menu;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    bottom: .4rem;
+    right: .3rem;
+    z-index: 3;
+    transition: .3s;
+    cursor:pointer;
+  }
+  
+  .logo:hover {
+    opacity: .8;
+  }
+  .soc{
+    color: rebeccapurple;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: medium;
+  }
+  .soc:hover{
+    transition-duration: 0.4s;
+    color: red;
+    font-size: small;
+  }
+  .time{
+    color: var(--text-color);
+  }
+  .post{
+    color:var(--text-color)
+  }
+  .fade-in{
+    opacity: 0;
+  transition: opacity 2s ease-in;
+  }
