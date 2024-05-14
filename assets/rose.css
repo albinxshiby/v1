@@ -17,6 +17,7 @@ h1,h4 {
 }
 h3{
   color: var(--text-color);
+  font-size: xx-large;
 }
 /*blog post font color*/
 p {
