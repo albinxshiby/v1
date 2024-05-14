@@ -11,7 +11,7 @@ a:hover {
   color: var(--link-color);
 }
 
-h1,h4 {
+h1,h4,h5 {
   font-size: 1.6em;
   color: var(--text-color);
 }
