@@ -1,0 +1,203 @@
+/*
+
+Copyright (c) 2021 Jane Manchun Wong. All rights reserved.
+
+This work is licensed under the terms of the MIT license.  
+For a copy, see <https://opensource.org/licenses/MIT>.
+
+Theme: Minimal
+Author: Jane Manchun Wong (@wongmjane)
+License: MIT
+Version: 1.0
+Description: A minimal theme with automatic light/dark mode detection.
+
+*/
+.mail {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    top: .4rem;
+    right: .4rem;
+    z-index: 3;
+    transition: .3s;
+    opacity: .8;
+	filter: contrast(10%);
+}
+
+.mail:hover {
+    opacity: 1;
+}
+:root {
+	--bg: #FAFAFA;
+	--fg: #202020;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #202020;
+		--fg: #FAFAFA;
+	}
+}
+
+html,
+body {
+	min-height: 100vh;
+}
+
+body {
+	background: var(--bg);
+	/* font-weight: unset; */
+	padding: unset;
+}
+
+body,
+a,
+a:link,
+a:visited {
+	color: var(--fg);
+}
+
+main {
+	background: unset;
+	padding: 1.5em;
+}
+
+#name {
+	font-size: 1.5em;
+	/* font-weight: 500; */
+}
+
+main>h1>a[href='https://home.omg.lol/lookup/']>i {
+	color: var(--verified) !important;
+}
+
+#pfp_preview {
+	filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+}
+
+#pronouns {
+	color: var(--fg);
+	opacity: 0.7;
+}
+
+main>ul>li>a:link,
+main>ul>li>a:visited {
+	border-bottom-color: var(--fg);
+}
+
+#footer {
+	margin-top: 3em;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+	color: var(--fg);
+	text-decoration: none;
+	border: 0;
+	opacity: 0.8;
+}
+
+.fa-li,
+.fas,
+.omg-icon,
+.omg-icon path {
+	color: var(--fg);
+	fill: var(--fg);
+	stroke: var(--fg);
+}
+
+
+/* POPUP SECTION (FOR NAVIGATION MENU MAINLY) */
+.popup {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-height: 500px;
+    width: 100vw;
+	color: #FAFAFA;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 3px;
+    text-align: center;
+    z-index: 400;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible
+}
+
+.popup__close:link,
+.popup__close:visited {
+    position: absolute;
+    top: -6.5rem;
+    right: -.4rem;
+    display: inline-block;
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 100;
+    text-decoration: none;
+    transition: all .3s
+}
+
+.popup__close:hover {
+    color: red;
+}
+
+.popup__right {
+	color: white;
+    font-size: 1.7rem;
+    width: 75%;
+    max-width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 3px
+}
+
+@media (min-width:768px) {
+
+    .popup__right {
+        font-size: 2rem
+    }
+}
+
+.popup__right h2 {
+    margin: 2.5rem 0 1rem
+}
+.popup__right a {
+    color: aliceblue;
+	text-decoration: none;
+}
+@media (min-width:768px) {
+    .popup__right h2 {
+        margin: 1rem 0
+    }
+}
+
+@media (max-width:768px) {
+    .popup__top {
+        padding: 1rem
+    }
+}
+
+
+/* POPUP SECTION END (FOR NAVIGATION MENU MAINLY)  END*/
+
+/* NAVIGATION MENU SPECIAL EDIT FOR LI */
+.menuli {
+    text-decoration: none;
+    color: white;
+    line-height: 4rem;
+}
+

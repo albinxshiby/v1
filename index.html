@@ -1,63 +1,122 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#f7f7f7">
-    <link rel="shortcut icon" type="image/png" href="assets/icon.png"/>
-    <link defer="" href="assets/bootstrap.min.css" rel="stylesheet">
-    <link defer="" href="assets/rose.css" rel="stylesheet">
-    <link defer="" href="assets/extra.css" rel="stylesheet">
-    <title>Albin Shiby | Personal webpage | @albinxshiby</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>
+    Albin Shiby
+  </title>
+  <meta charset="utf-8">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Henry Fisher">
+ <meta property="og:image" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href="index_files/base.css" rel="stylesheet">
+  <link href="index_files/minimal.css" rel="stylesheet">
 </head>
 
-<body class="d-flex md h-100 container-sm text-white bg-dark">
-    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-                <h1 class="float-md-start justify-content-center"><a class="head-rose"
-                        href="/">hello@abnxer ~ $</a></h1>
-                <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link" href="/">home</a>
-                    <a class="nav-link"
-                        href="stuff.html">blog's</a>
-                    <a class="nav-link" href="contact.html">contact</a>
-                    <a class="nav-link" href="about.html">about</a>
-                </nav>
-            </div>
-        </header>
-        <div id="content">
-           <div class="avatar text-center"><img src="assets/main.png" alt="black-rose" class="img-ava"></div> 
-            <div class="px-3 text-center">
-                <h3>Hi, I'm Albin Shiby</h3>
-                <p>this user is a baka..!</p>
-                <a href="https://github.com/albinxshiby" class="soc" target="_blank">latest project's</a>
-                <a href="https://albinshiby.substack.com" class="soc" target="_blank">substack</a>
-                <a href="contact.html" class="soc">contact</a>
-            </div>
-        </div>
-        <a onclick="toggleTheme()" class="logo"><img src="assets/f.gif" class="logo" alt="dark-mode"></a>
-        <footer class="mt-auto text-white text-center">
-            
-            <p>Designed & Developed by <a
-                    href="https://github.com/albinxshiby">@albinxshiby</a> 2023 </p>
-        </footer>
+<body>
+  <main>
+    <a href="#popupmenu" class="mail"><img src="index_files/menu.png" class="mail"></a>
+    <div id="profile-picture-container">
+      <img class="u-photo" alt="hen" id="profile-picture" src="index_files/main.png">
     </div>
-    <!--THEME SWITCH JS START-->
-<script>
-    function toggleTheme() {
-        var html = document.querySelector('html');
-        if (html.getAttribute('data-theme') === 'light') {
-            html.setAttribute('data-theme', 'dark');
-        } else {
-            html.setAttribute('data-theme', 'light');
-        }
-    }
+    <h1 id="name">
+      I'm Albin Shiby <a id="verification" style="text-decoration: none; border: 0;"
+        ></a>
+    </h1>
+    <div class="metadata" id="pronouns">
+      @albinxshiby
+    </div>
+    <div id="details"></div>
+    <div id="bio">
+      <p>
+        still learning, #foss hacktivist & <a rel="me"
+          href="https://surveillancereport.tech/">cyborg</a>
+      </p>
+      <p>
+        Links I find interesting
+         and announcement of new blog posts.
+          If you want to add a comment to one of the posts you can do so in the
+          substack page.
+      </p>
+    </div>
+    <div id="profile-items">
+      <h1>
+        Contact options
+      </h1>
+      <ul class="fa-ul">
+        <li>
+          <span class="fa-li"></i></span><a rel="me"
+            href="mailto:hellobylon@skiff.com">hellobylon@skiff.com \ Email</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-user-secret"></i></span><a rel="me"
+            href="@bylonroid:matrix.org">@bylonroid:matrix.org</a>
+        </li>
+      </ul>
+      <h1>
+        Professional
+      </h1>
+      <ul class="fa-ul">
+        
+        <li>
+          <span class="fa-li"><i class="fa-brands fa-github"></i></span><a rel="me"
+            href="https://github.com/albinxshiby">GitHub</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-brands fa-linkedin"></i></span><a rel="me"
+            href="https://www.linkedin.com/in/albinshiby">LinkedIn</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-brands fa-linkedin"></i></span><a rel="me"
+            href="https://albinshiby.substack.com">Substack blog</a>
+        </li>
+       
+      </ul>
+      <h3>
+        Personal
+      </h3>
+      <ul class="fa-ul">
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-image"></i></span><a rel="me"
+            href="https://instagram.com/albinxshiby">instagram</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-image"></i></span><a rel="me"
+            href="https://x.com/albinxshiby">Twitter / X</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-brands fa-mastodon"></i></span><a rel="me"
+            href="https://mastodon.social/albinxshiby">Mastodon</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-image"></i></span><a rel="me"
+            href="https://pixelfed.social/albinxshiby">pixelfed</a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer">Designed & developed by @albinxshiby 2023</div>
+    <!-- Popup navigation menu -->
 
-</script>
-<!--THEME SWITCH JS END-->
+    <div class="popup" id="popupmenu">
+      <div class="popup__content">
+          <div class="popup__right"> <a href="#!" class="popup__close">×</a>
+              <div class="popup__top">
+                  <a href="/" class="menuli">Home</a><br>
+                  <a href="https://github.com/albinxshiby/albinxshiby" class="menuli">About</a><br>
+                  <a href="https://github.com/albinxshiby" class="menuli">Builds</a><br>
+                  <a href="sf" class="menuli">Snowflakes</a><br>
+                  <a href="mailto:hellobylon@skiff.com" class="menuli">EMail Me</a><br>
+
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <!-- Popup navigation menu END -->
+  </main>
+
 </body>
 
 </html>
