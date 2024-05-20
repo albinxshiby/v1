@@ -1,122 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>
-    Albin Shiby
-  </title>
-  <meta charset="utf-8">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Henry Fisher">
- <meta property="og:image" content="">
-  <meta name="viewport" content="width=device-width">
-  <link href="index_files/base.css" rel="stylesheet">
-  <link href="index_files/minimal.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Albin Shiby | That Technocratic one</title>
+    <link rel="shortcut icon" type="image/png" href="assets/icon.png" />
+    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="assets/style.css">
+
+    <meta property="og:title" content="Albin Shiby | Personal Page For Public">
+    <meta property="og:description"
+        content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://albinxshiby.github.io/">
+    <meta property="og:site_name" content="Albin Shiby">
+    <meta property="og:image" content="https://albinxshiby.github.io/assets/img/og.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:locale" content="en_US">
+    <meta name="description"
+        content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
+    <meta name="keywords"
+        content="design, development, web, albinxshiby, albin, shiby, javascript, hacker, security, albinshiby">
+
+    <meta itemprop="name" content="Albin Shiby | Personal Page For Public">
+    <meta itemprop="description"
+        content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
+    <meta itemprop="image" content="https://albinxshiby.github.io/assets/img/og.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://albinxshiby.github.io/">
+    <meta name="twitter:site" content="@albinxshiby">
+    <meta name="twitter:creator" content="@albinxshiby">
+    <meta name="twitter:title" content="Albin Shiby | Personal Page For Public">
+    <meta name="twitter:description"
+        content="A technocratic design-minded one who's still learning new stuffs, FOSS Supporter and Cyber Enthusiast with a different vision ">
+    <meta name="twitter:image:src" content="https://albinxshiby.github.io/assets/img/og.png">
 </head>
 
 <body>
-  <main>
-    <a href="#popupmenu" class="mail"><img src="index_files/menu.png" class="mail"></a>
-    <div id="profile-picture-container">
-      <img class="u-photo" alt="hen" id="profile-picture" src="index_files/main.png">
+    <!-- right click disabling script/////////////////////////////////////////////////////////////////////////// -->
+    <script>
+        document.addEventListener("contextmenu", e => {
+            alert("Sorry! Right Click is disabled");
+            e.preventDefault();
+        });
+    </script>
+    <!-- CARD COntainer main/////////////////////////////////////////////////////////////////////////// -->
+    <div class="modal">
+        <img src="assets/img/profile.jpg" alt="">
+        <div class="close"></div>
     </div>
-    <h1 id="name">
-      I'm Albin Shiby <a id="verification" style="text-decoration: none; border: 0;"
-        ></a>
-    </h1>
-    <div class="metadata" id="pronouns">
-      @albinxshiby
+
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <a onclick="toggleTheme()" class="logo"><img src="assets/img/icons/dark.png" class="logo"></a>
+                <a href="#popupmenu" class="mail"><img src="assets/img/icons/menu.png" class="mail"></a>
+
+                <div class="main">
+                    <a href="/">
+                        <div class="image">
+                            <!--
+                        <div class="hover">
+                            <i class="fas fa-camera fa-2x"></i>
+                        </div>
+                        -->
+                        </div>
+                    </a>
+                    <h3 class="name">Hi, I'm Albin Shiby</h3>
+                    <h3 class="sub-name">@albinxshiby</h3>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="left">
+                    <div class="about-container">
+                        <h3 class="title">Something more</h3>
+                        <p class="text">Occasional technocrat, #foss hacktivist & cyber enthusiast 🕵🏻, I use Arch BTW_👾
+                        </p>
+                    </div>
+                    <div class="icons-container">
+                        <a href="https://github.com/albinxshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/github.png"></img></a>
+                        <a href="https://instagram.com/albinxshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/instagram.png"></img></a>
+                        <a href="https://gitlab.com/albinxshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/gitlab.png"></img></a>
+                        <a href="https://twitter.com/albinxshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/x.png"></img></a>
+                        <a href="https://pixelfed.social/albinxshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/pixelfed.png"></img></a>
+                        <a href="https://mastodon.social/@albinxshiby" target="_blank"><img class="icon"
+                                src="assets/img/icons/mast.png"></img></a>
+                                <a href="https://www.linkedin.com/in/albin-shiby-45098b285" target="_blank"><img class="icon"
+                                src="assets/img/icons/in.png"></img></a>
+                    </div><br>
+                    <div class="buttons-wrap">
+                        <div class="follow-wrap">
+                            <a href="#popuphi" class="follow"><strong>α૮ƭเѵเƭเε'ร</strong></a>
+                        </div>
+                        <div class="share-wrap">
+                            <a href="https://github.com/albinxshiby" target="_blank" class="share"><strong>Project's !</strong></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div>
+                        <h3 class="number">12+</h3>
+                        <h3 class="number-title">GH Build'S</h3>
+                    </div>
+                    <div>
+                        <h3 class="number">349+</h3>
+                        <h3 class="number-title">Contributions</h3>
+                    </div>
+                    <div>
+                        <h3 class="number">0.1%</h3>
+                        <h3 class="number-title">BitOfEverthng</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="details"></div>
-    <div id="bio">
-      <p>
-        still learning, #foss hacktivist & <a rel="me"
-          href="https://surveillancereport.tech/">cyborg</a>
-      </p>
-      <p>
-        Links I find interesting
-         and announcement of new blog posts.
-          If you want to add a comment to one of the posts you can do so in the
-          substack page.
-      </p>
-    </div>
-    <div id="profile-items">
-      <h1>
-        Contact options
-      </h1>
-      <ul class="fa-ul">
-        <li>
-          <span class="fa-li"></i></span><a rel="me"
-            href="mailto:hellobylon@skiff.com">hellobylon@skiff.com \ Email</a>
-        </li>
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-user-secret"></i></span><a rel="me"
-            href="@bylonroid:matrix.org">@bylonroid:matrix.org</a>
-        </li>
-      </ul>
-      <h1>
-        Professional
-      </h1>
-      <ul class="fa-ul">
-        
-        <li>
-          <span class="fa-li"><i class="fa-brands fa-github"></i></span><a rel="me"
-            href="https://github.com/albinxshiby">GitHub</a>
-        </li>
-        <li>
-          <span class="fa-li"><i class="fa-brands fa-linkedin"></i></span><a rel="me"
-            href="https://www.linkedin.com/in/albinshiby">LinkedIn</a>
-        </li>
-        <li>
-          <span class="fa-li"><i class="fa-brands fa-linkedin"></i></span><a rel="me"
-            href="https://albinshiby.substack.com">Substack blog</a>
-        </li>
-       
-      </ul>
-      <h3>
-        Personal
-      </h3>
-      <ul class="fa-ul">
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-image"></i></span><a rel="me"
-            href="https://instagram.com/albinxshiby">instagram</a>
-        </li>
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-image"></i></span><a rel="me"
-            href="https://x.com/albinxshiby">Twitter / X</a>
-        </li>
-        <li>
-          <span class="fa-li"><i class="fa-brands fa-mastodon"></i></span><a rel="me"
-            href="https://mastodon.social/albinxshiby">Mastodon</a>
-        </li>
-        <li>
-          <span class="fa-li"><i class="fa-solid fa-image"></i></span><a rel="me"
-            href="https://pixelfed.social/albinxshiby">pixelfed</a>
-        </li>
-      </ul>
-    </div>
-    <div id="footer">Designed & developed by @albinxshiby 2023</div>
+
+    <!-- POPUP POPUP POPUP/////////////////////////////////////////////////////////////////////////// -->
+
     <!-- Popup navigation menu -->
 
     <div class="popup" id="popupmenu">
-      <div class="popup__content">
-          <div class="popup__right"> <a href="#!" class="popup__close">×</a>
-              <div class="popup__top">
-                  <a href="/" class="menuli">Home</a><br>
-                  <a href="https://github.com/albinxshiby/albinxshiby" class="menuli">About</a><br>
-                  <a href="https://github.com/albinxshiby" class="menuli">Builds</a><br>
-                  <a href="sf" class="menuli">Snowflakes</a><br>
-                  <a href="mailto:hellobylon@skiff.com" class="menuli">EMail Me</a><br>
+        <div class="popup__content">
+            <div class="popup__right"> <a href="#!" class="popup__close">×</a>
+                <div class="popup__top">
+                    <a href="/" class="menuli">Home</a><br>
+                    <a href="https://github.com/albinxshiby/albinxshiby" class="menuli">About</a><br>
+                    <a href="https://github.com/albinxshiby" class="menuli">Builds</a><br>
+                    <a href="sf" class="menuli">Snowflakes</a><br>
+                    <a href="mailto:hellobylon@skiff.com" class="menuli">EMail Me</a><br>
 
-              </div>
+                </div>
 
-          </div>
-      </div>
-  </div>
-  <!-- Popup navigation menu END -->
-  </main>
+            </div>
+        </div>
+    </div>
+    <!-- Popup navigation menu END -->
 
-</body>
+    <!-- Lets talk popup page START-->
+    <div class="popup" id="popuphi">
+        <div class="popup__content">
+            <div class="popup__talk"> <a href="#!" class="popup__close">×</a>
+                <div class="popup__top">
+
+                    <figure class="hi__pic"> <a href="" class="hi__pic"> <img class="hi__pic" src="assets/img/pen.png"
+                                alt=""> </a> </figure>
+                    <p class="popup__text">page Under Development</p>
+                    <div class="popup__buttons"> <a href="mailto:hellobylon@skiff.com"
+                            class="btna">hellobylon@skiff.com</a> </div>
+                </div>
+            </div>
+            <div class="popup__contactinfo">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Lets talk popup page END-->
+
+
+
+    <!-- CAN BE ENABLE ANYTIME <script src="assets/app.js"></script>  -->
+    <script>
+        function toggleTheme() {
+            var html = document.querySelector('html');
+            if (html.getAttribute('data-theme') === 'light') {
+                html.setAttribute('data-theme', 'dark');
+            } else {
+                html.setAttribute('data-theme', 'light');
+            }
+        }
+
+    </script>
+
+     </body>
 
 </html>
