@@ -55,8 +55,6 @@
 
 body {
     background-color: var(--body-color);
-    overflow:hidden;
-    height:100vh;
 }
 
 
