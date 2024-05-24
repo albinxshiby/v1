@@ -267,6 +267,10 @@ body {
     display: inline;
     filter: contrast(0%);
 }
+.icon:hover{
+    -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
 
 
 .buttons-wrap {
