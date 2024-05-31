@@ -192,7 +192,7 @@ body {
 
 .sub-name {
     font-family: 'Cutive Mono', monospace;
-    font-size: 1rem;
+    font-size: 0.5rem;
     opacity: .8;
     color: #fff;
 }
@@ -436,7 +436,7 @@ body {
     }
 
     .sub-name {
-        font-size: .8rem;
+        font-size: .5rem;
     }
 
     .mail {
