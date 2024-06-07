@@ -654,7 +654,7 @@ body {
 }
 
 .hi__pic {
-    width: 140px;
+    width: auto;
     text-align: center;
     height: 140px;
     margin-top: -2.5rem;
