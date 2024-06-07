@@ -10,8 +10,10 @@
  ### LIVE DEMO:-
  Website demo link [here](https://albinxshiby.github.io)
 
+ ### CREDITS
+ <a href="https://www.flaticon.com/free-stickers/skill" title="skill stickers">Skill stickers created by paulalee - Flaticon</a>
  ### LICENSE
- License is added for this project
+ MIT License is added for this repo
  
  ### MAYBE FIND ME HERE
  @albinxshiby
